@@ -16,7 +16,7 @@ public class Main {
     }
 
     public static boolean areEqualByThreeDecimalPlaces(double x, double n){
-        if(((int) (x * 1000)) == ((int) (n * 1000))){//Multiplies the numbers by 1000 then checks if the numbers are equal
+        if(((int) (x * 1000)) == ((int) (n * 1000))){//Using casting, this turns the doubles into ints then, multiplies the numbers by 1000 then checks if the numbers are equal
             System.out.println("Your numbers are equal up to three decimal places.");
             return true;
         }

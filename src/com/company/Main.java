@@ -1,3 +1,11 @@
+/**********************
+ * Author: Travis Ashcraft
+ *
+ * Decimal Comparator
+ *
+ * Travisashcraft.github.io
+ */
+
 package com.company;
 
 import java.util.Scanner;
